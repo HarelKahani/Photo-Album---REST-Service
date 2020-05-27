@@ -1,0 +1,74 @@
+{
+  "1": {
+    "name": "People, Jerusalem streets",
+    "type": "people",
+    "pictures": {
+      "PIC123": {
+        "name": "Prayer, the Kotel H'amarvi",
+        "link": "external or internal link",
+        "photographer": "Moshe cohen",
+        "id": "PIC123"
+      },
+      "PIC456": {
+        "name": "Girls in the old city",
+        "link": "external or internal link",
+        "photographer": "Yona Levi",
+        "id": "PIC456"
+      }
+    }
+  },
+  "2": {
+    "name": "Desert",
+    "type": "nature",
+    "pictures": {
+      "PIC777": {
+        "name": "Negev",
+        "link": "external or internal link",
+        "photographer": "Vered Mizrachi",
+        "id": "PIC777"
+      },
+      "PIC888": {
+        "name": "Sand everywhere",
+        "link": "external or internal link",
+        "photographer": "Yona Levi",
+        "id": "PIC888"
+      }
+    }
+  },
+  "3": {
+    "name": "blalblb1",
+    "type": "nature",
+    "pictures": {
+      "PIC777": {
+        "name": "Negev",
+        "link": "external or internal link",
+        "photographer": "Vered Mizrachi",
+        "id": "PIC777"
+      },
+      "PIC888": {
+        "name": "Sand everywhere",
+        "link": "external or internal link",
+        "photographer": "Yona Levi",
+        "id": "PIC888"
+      }
+    }
+  },
+  "4": {
+    "name": "blalalalalal2",
+    "type": "nature",
+    "pictures": {
+      "PIC777": {
+        "name": "Negev",
+        "link": "external or internal link",
+        "photographer": "Vered Mizrachi",
+        "id": "PIC777"
+      },
+      "PIC888": {
+        "name": "Sand everywhere",
+        "link": "external or internal link",
+        "photographer": "Yona Levi",
+        "id": "PIC888"
+      }
+    }
+  }
+}

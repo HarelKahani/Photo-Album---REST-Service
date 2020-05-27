@@ -1,0 +1,19 @@
+table, th, td {
+    margin: auto;
+}
+th, td{
+    text-align: center;
+}
+
+#footer{
+    text-align:center;
+    margin: 2%;
+}
+body {
+    background-image: url("background-02.jpg") ;
+  }
+
+header{
+    text-align: center;
+    margin-bottom: 3%;
+}
