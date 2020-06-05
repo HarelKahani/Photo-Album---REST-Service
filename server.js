@@ -30,7 +30,7 @@ app.use('/', routes);
 app.use('/js', express.static(path.join(__dirname, 'js')));
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/create-album', express.static(path.join(__dirname, 'html/Create_Album_Form.html')));
-app.use('/add-picture', express.static(path.join(__dirname, 'html/Pic_Form.html')));
+app.use('/add-picture', express.static(path.join(__dirname, 'html/Add_Pic_Form.html')));
 
 
 const server = app.listen(port, () => {

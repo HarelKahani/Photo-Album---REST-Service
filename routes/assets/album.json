@@ -1,73 +1,43 @@
 {
   "1": {
-    "name": "People, Jerusalem streets",
+    "name": "Jerusalem",
     "type": "people",
     "pictures": {
-      "PIC123": {
+      "1": {
         "name": "Prayer, the Kotel H'amarvi",
-        "link": "external or internal link",
+        "link": "https://lh3.googleusercontent.com/proxy/sUzUVUciqnaaI66-32PsqrrV5gY9m9IWneezTEVkIz9dmtutdrzOSinXj1Jv2Ex_r5tiVqsVF3VgA0M0sYqPYjipb5IZaEMK-w",
         "photographer": "Moshe cohen",
-        "id": "PIC123"
+        "id": "1"
       },
-      "PIC456": {
-        "name": "Girls in the old city",
-        "link": "external or internal link",
+      "2": {
+        "name": "The old city",
+        "link": "https://media.timeout.com/images/103938837/image.jpg",
         "photographer": "Yona Levi",
-        "id": "PIC456"
+        "id": "2"
+      },
+      "3": {
+        "name": "Tour of Jaffa Street, Jerusalem",
+        "link": "https://www.itraveljerusalem.com/wp-content/uploads/2016/07/plh-crd-jaffa-street-light-train-night-ministry-of-tourism-2.jpg",
+        "photographer": "Yoad Cohen",
+        "id": "3 "
       }
     }
   },
   "2": {
-    "name": "Desert",
-    "type": "nature",
+    "name": "Wild",
+    "type": "Nature",
     "pictures": {
-      "PIC777": {
-        "name": "Negev",
-        "link": "external or internal link",
-        "photographer": "Vered Mizrachi",
-        "id": "PIC777"
+      "1": {
+        "name": "Amazimg view",
+        "photographer": "Unknown",
+        "link": "https://wildtravel.co.il/wp-content/uploads/2017/01/shutterstock_110500415.jpg",
+        "id": "1"
       },
-      "PIC888": {
-        "name": "Sand everywhere",
-        "link": "external or internal link",
-        "photographer": "Yona Levi",
-        "id": "PIC888"
-      }
-    }
-  },
-  "3": {
-    "name": "blalblb1",
-    "type": "nature",
-    "pictures": {
-      "PIC777": {
-        "name": "Negev",
-        "link": "external or internal link",
-        "photographer": "Vered Mizrachi",
-        "id": "PIC777"
-      },
-      "PIC888": {
-        "name": "Sand everywhere",
-        "link": "external or internal link",
-        "photographer": "Yona Levi",
-        "id": "PIC888"
-      }
-    }
-  },
-  "4": {
-    "name": "blalalalalal2",
-    "type": "nature",
-    "pictures": {
-      "PIC777": {
-        "name": "Negev",
-        "link": "external or internal link",
-        "photographer": "Vered Mizrachi",
-        "id": "PIC777"
-      },
-      "PIC888": {
-        "name": "Sand everywhere",
-        "link": "external or internal link",
-        "photographer": "Yona Levi",
-        "id": "PIC888"
+      "2": {
+        "name": "Simba",
+        "photographer": "Disney",
+        "link": "https://media.wired.com/photos/5cf5ab3ee2e491e5ae8ae0a9/master/pass/WI070119_FF_Lionking_01.jpg",
+        "id": "2"
       }
     }
   }

@@ -3,51 +3,43 @@
 <html>
 
 <head>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
-    "></script> <!-- load jquery via CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
-    <script src="js/user.js"></script>
-    </script> <!-- load our javascript file -->
+ 
 </head>
 
 <body>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large
-        modal</button>
-
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    <div class="modal fade bd-example-modal-lg album" id="test" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="col-sm-6 col-sm-offset-3">
-
-                    <h1>Add new Album</h1>
+                    
+                   
                     <!-- OUR FORM -->
                     <form id="album_form" name="album_form" method="POST">
+                        <h1 class="display-4">Add new album</h1>
+                        <b> <hr></b>
                         <!-- NAME -->
                         <div id="name-group" class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" name="name" id="album_name"
+                            <input type="text" class="form-control" name="album_name" id="album_name"
                                 placeholder="write album name here" required>
                             <!-- errors will go here -->
                         </div>
                         <!-- ID -->
                         <div id="name-group" class="form-group">
-                            <label for="id">Type</label>
-                            <input type="text" class="form-control" name="type_field" id="type_field"
-                                placeholder="write album type here" required>
+                            <label for="type">Type</label>
+                            <select class="custom-select" id="type_field" required>
+                                <option selected disabled>Choose album type</option>
+                                <option value="People">People</option>
+                                <option value="Nature">Nature</option>
+                              </select>
                             <!-- errors will go here -->
                         </div>
+                        <hr>
                         <button type="submit" class="btn btn-success">Submit <span
                                 class="fa fa-arrow-right"></span></button>
+                        
                     </form>
                 </div>
             </div>

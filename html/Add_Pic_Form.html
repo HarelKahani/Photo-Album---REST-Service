@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+
+<head>
+    
+</head>
+
+<body>
+    <div class="modal fade bd-example-modal-lg pic"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" >
+                <div class="col-sm-6 col-sm-offset-3" >
+
+                    <!-- OUR FORM -->
+                    <form id="pic_form" name="pic_form" method="POST">
+                    <h1 class="display-4">Add new picture</h1>
+                    <hr>
+                        <!-- NAME -->
+                        <div id="name-group" class="form-group">
+                            <label for="photographer">Photographer name</label>
+                            <input type="text" class="form-control" name="name" id="photographer_name"
+                                placeholder="write photographer name here" required>
+                            <!-- errors will go here -->
+                        </div>
+                          <!-- NAME -->
+                          <div id="name-group" class="form-group">
+                            <label for="name">Picture name</label>
+                            <input type="text" class="form-control" name="name" id="picture_name"
+                                placeholder="write picture name here" required>
+                            <!-- errors will go here -->
+                        </div>
+                        <!-- ID -->
+                        <div id="name-group" class="form-group">
+                            <label for="link">URL</label>
+                            <input type="text" class="form-control" name="type_field" id="url_field"
+                                placeholder="paste picture link here" required>
+                            <!-- errors will go here -->
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-success">Submit <span
+                                class="fa fa-arrow-right"></span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
